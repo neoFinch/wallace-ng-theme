@@ -13,10 +13,13 @@ export class AsideComponent implements OnInit {
   }
 
   addActive(event) {
-    document.querySelectorAll('.nav-links a').forEach(function(ele) {
-      console.log("e",ele);
-      ele.classList.remove('active');
-    })
+    var eles = document.querySelectorAll('.nav-links a');
+
+    for(var i = 0; i < eles.length; i++)
+    {
+      console.log(eles[i]);
+      eles[i].classList.remove('active');
+    }
     event.target.classList.add('active');
 
   }
