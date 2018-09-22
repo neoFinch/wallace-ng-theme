@@ -1,0 +1,28 @@
+fa.collapse-aside{
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 30px 10px 15px;
+    cursor: pointer;
+}
+
+.search-icon{
+    color: var(--primary);
+    font-size: 22px;
+}
+.search-here{
+    height: 25px;
+    border: none;
+    font-size: 22px;
+    font-weight: 100;
+    background: transparent;
+    margin-left: -25px;
+    border-bottom: 1px solid #efefef;
+    width: 300px;
+    padding-left: 25px;
+}
+
+.search-here:focus{
+    outline: none;
+    border-bottom: 2px solid var(--secondary);
+
+}
